@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  htm {
+    font-family: Figtree, sans-serif;
+  }
+}
+
 html {
   overflow: scroll;
   overflow-x: hidden;
