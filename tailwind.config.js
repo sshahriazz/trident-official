@@ -15,7 +15,7 @@ module.exports = {
         textWhite: "#FFFFFF",
       },
       fontFamily: {
-        figtree: "Figtree, sans-serif",
+        figtree: ["Figtree", "sans-serif"],
       },
     },
   },
