@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
-import FilledButton from "../components/common/button/FilledButton";
-import HeroSection from '../components/hero-section/index'
-// Index as home page
+import GettingStarted from "../components/get-started";
+
 const Home: NextPage = () => {
-  return <div>
-    <HeroSection/>
-  </div>
+  return (
+    <>
+      <GettingStarted />
+    </>
+  );
 };
 
 export default Home;
