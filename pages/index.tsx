@@ -4,10 +4,10 @@ import GettingStarted from "../components/get-started";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="space-y-7">
       <HeroSection />
       <GettingStarted />
-    </>
+    </div>
   );
 };
 
