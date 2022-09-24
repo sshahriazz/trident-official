@@ -30,7 +30,7 @@ const GettingStarted = () => {
           </div>
           <div className="absolute bottom-0 right-0 hidden md:block">
             <Image
-              className="rounded-lg xl:w-[700px] xl:h-[420px] lg:w-[600px] lg:h-[350px] md:w-[385px] md:h-[270px]"
+              className="rounded-lg xl:w-[700px] xl:h-[400px] lg:w-[600px] lg:h-[350px] md:w-[385px] md:h-[270px]"
               height={350}
               width={600}
               alt="getting started men sitting with a laptop"
