@@ -55,8 +55,8 @@ Button.defaultProps = {
   focusRing: "ring-primaryDark-200",
   textColor: "text-white",
   radius: "rounded-full",
-  px: "px-5",
-  py: "py-4",
+  px: "px-6",
+  py: "py-3",
   className: "",
 };
 
