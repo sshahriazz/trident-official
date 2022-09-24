@@ -157,7 +157,7 @@ export const HeroSection = () => {
         <div>
           <div>
             <Image
-              className="m-0 "
+              className="m-0"
               src={"/assets/images/trident-how-to-works.svg"}
               alt={"trident hero image"}
               width={283}
@@ -165,7 +165,7 @@ export const HeroSection = () => {
             />
           </div>
 
-          <div>
+          <div className="mt-40">
             <UserAvatar />
             <p className="pt-5 w-60">Help they be productive with activities</p>
             <p className="underline pt-3">See story</p>
