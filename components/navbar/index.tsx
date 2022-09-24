@@ -4,8 +4,6 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/future/image";
 import NavMenu from "./NavMenu";
-import TridentLogo from "../../assets/logo/trident-logo.svg";
-import MobileTridentLogo from '../../assets/logo/trident-logo-mobile.svg'
 import BorderLineButton from "../common/button/BorderLineButton";
 export default function Navbar() {
     const [hideNavMenu] = useState(false);
@@ -19,14 +17,14 @@ export default function Navbar() {
                                 <div className="flex-shrink-0">
                                     <Image
                                         className="hidden sm:block"
-                                        src={TridentLogo}
+                                        src={"/assets/logo/trident-logo.svg"}
                                         alt="trident-logo"
                                         width={166}
                                         height={40}
                                     />
                                     <Image
                                         className="sm:hidden "
-                                        src={MobileTridentLogo}
+                                        src={"/assets/logo/trident-logo-mobile.svg"}
                                         alt="trident-logo-mobile"
                                         width={40}
                                         height={40}

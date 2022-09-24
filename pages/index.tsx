@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
 import FilledButton from "../components/common/button/FilledButton";
-
+import HeroSection from '../components/hero-section/index'
 // Index as home page
 const Home: NextPage = () => {
   return <div>
-    <h1 className="text-primaryDark">Welcome to tailwind</h1>
-    <FilledButton onClick={() => { }}> Dark Varient Button</FilledButton>
+    <HeroSection/>
   </div>
 };
 
