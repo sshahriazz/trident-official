@@ -1,39 +1,36 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment, useState } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon, ArrowDownIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/future/image";
 import NavMenu from "./NavMenu";
-import ProfileMenuDropdown from "./ProfileMenuDropdown";
-import DisclosureMenu from "./DisclosureMenu";
 import TridentLogo from "../../assets/logo/trident-logo.svg";
-function classNames(...classes: any[]) {
-    return classes.filter(Boolean).join(" ");
-}
+import MobileTridentLogo from '../../assets/logo/trident-logo-mobile.svg'
+import BorderLineButton from "../common/button/BorderLineButton";
 export default function Navbar() {
     const [hideNavMenu] = useState(false);
     return (
-        <Disclosure as="nav" className="bg-white py-2">
+        <Disclosure as="nav" className="container bg-white sm:py-2 mx-auto">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div className="mx-auto max-w-7xl px-4 sm:px-0">
                         <div className="flex h-16 items-center justify-between">
                             <div className="flex items-center">
                                 <div className="flex-shrink-0">
                                     <Image
-                                        className=""
+                                        className="hidden sm:block"
                                         src={TridentLogo}
-                                        alt="testing"
+                                        alt="trident-logo"
                                         width={166}
                                         height={40}
                                     />
-                                    {/* <Image
-                                        className="hidden h-8 w-auto lg:block"
-                                        src="/technext-logo.png"
-                                        alt="Your Company"
-                                        width={100}
-                                        height={100}
-                                    /> */}
+                                    <Image
+                                        className="sm:hidden "
+                                        src={MobileTridentLogo}
+                                        alt="trident-logo-mobile"
+                                        width={40}
+                                        height={40}
+                                    />
                                 </div>
                                 {/* ------------------------ Nav Menu ------------------- */}
                                 {hideNavMenu && <NavMenu />}
@@ -65,13 +62,12 @@ export default function Navbar() {
 
                             </div>
                             <div className="gap-3 hidden sm:flex">
-                                <button className="py-2 px-6 border border-primaryDark rounded-full text-primaryDark hover:bg-primary hover:text-white">
-                                        <span>Sign In </span>
-                                      
-                                </button>
-                                <button className="py-2 px-6 border border-primaryDark rounded-full text-primaryDark hover:bg-primary hover:text-white">
-                                    <span>Book a Demp </span>
-                                </button>
+                                <BorderLineButton onClick={() => { }}>
+                                    <span>Sign In </span>
+                                </BorderLineButton>
+                                <BorderLineButton onClick={() => { }}>
+                                    <span>Book a Demo </span>
+                                </BorderLineButton>
                             </div>
 
                         </div>
