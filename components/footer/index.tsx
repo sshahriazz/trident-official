@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { navigation } from "content";
-import tridentLogo from "assets/logo/trident-logo.svg";
-import tridentLogoMobile from "assets/logo/trident-logo-mobile.svg";
 
 const EmailIcon = () => (
   <svg
@@ -43,7 +41,7 @@ export default function index() {
           <div className="space-y-4 xl:col-span-1">
             <div className="flex-shrink-0">
               <Image
-                src={tridentLogo}
+                src={"/assets/logo/trident-logo.svg"}
                 alt="trident-logo"
                 width={150}
                 height={35}
