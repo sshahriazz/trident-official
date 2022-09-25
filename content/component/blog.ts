@@ -1,11 +1,7 @@
-import TridentImprovement from "assets/blogs-image/trident-improvement.png";
-import TridentTipsTricks from "assets/blogs-image/trident-tips&tricks.png";
-import TridentNews from "assets/blogs-image/trident-news.png";
-
 export const blogData = [
   {
     id: 101,
-    image: TridentImprovement,
+    image: "/assets/images/trident-improvement.png",
     alt: "trident-improvement",
     tags: "Improvements",
     title: "Automating Daily Tasks from Your Phone",
@@ -14,7 +10,7 @@ export const blogData = [
   },
   {
     id: 102,
-    image: TridentTipsTricks,
+    image: "/assets/images/trident-tips&tricks.png",
     alt: "trident-tips-tricks",
     tags: "Tips & Tricks",
     title: "Can You Automate Group Learning?",
@@ -23,7 +19,7 @@ export const blogData = [
   },
   {
     id: 103,
-    image: TridentNews,
+    image: "/assets/images/trident-news.png",
     alt: "trident-news",
     tags: "News",
     title: "Our $3,000,000 B Round Investors",
@@ -31,3 +27,4 @@ export const blogData = [
       "Dicta nihil ratione corrupti. Aut dolorem dolores omnis laboriosam ratione sequi. Provident ad sed velit. Est ea ab.",
   },
 ];
+export default blogData;
