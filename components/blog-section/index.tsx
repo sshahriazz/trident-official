@@ -6,13 +6,15 @@ import BorderLineButton from "../common/button/BorderLineButton";
 const index = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-between gap-5 mb-[3.25rem] mt-28">
-        <h1 className="text-5xl font-semibold">Get smarter, with our blog.</h1>
-        <BorderLineButton onClick={() => {}}>
+      <div className="flex flex-wrap justify-between gap-5 mb-[3.25rem]">
+        <h1 className="text-3xl md:text-[40px] font-semibold">
+          Get smarter, with our blog.
+        </h1>
+        <BorderLineButton onClick={() => { }}>
           <span>See all posts</span>
         </BorderLineButton>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1.875rem] mb-10 md:mb-40">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1.875rem]">
         {blogData.map((blog) => (
           <div key={blog.id} className="mb-4">
             <Image
@@ -27,7 +29,9 @@ const index = () => {
                 {blog.tags}
               </span>
               <div className="pt-4 w-11/12">
-                <div className="font-semibold text-3xl mb-2">{blog.title}</div>
+                <div className="font-semibold text-xl md:text-[30px] leading-tight mb-2">
+                  {blog.title}
+                </div>
                 <p className="text-[#565656]">{blog.description}</p>
               </div>
             </div>
