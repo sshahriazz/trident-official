@@ -5,7 +5,7 @@ import BorderLineButton from "../common/button/BorderLineButton";
 
 const index = () => {
   return (
-    <div className="container mx-auto px-2 sm:px-0">
+    <>
       <div className="flex flex-wrap justify-between gap-5 mb-[3.25rem] mt-28">
         <h1 className="text-5xl font-semibold">Get smarter, with our blog.</h1>
         <BorderLineButton onClick={() => {}}>
@@ -34,7 +34,7 @@ const index = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

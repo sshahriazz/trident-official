@@ -36,7 +36,7 @@ const UserAvatar = () => (
       r="23"
       fill="url(#pattern0)"
       stroke="#FFFAF0"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <circle
       cx="55"
@@ -44,7 +44,7 @@ const UserAvatar = () => (
       r="23"
       fill="url(#pattern1)"
       stroke="#FFFAF0"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <circle
       cx="86"
@@ -52,7 +52,7 @@ const UserAvatar = () => (
       r="23"
       fill="url(#pattern2)"
       stroke="#FFFAF0"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <circle
       cx="117"
@@ -60,7 +60,7 @@ const UserAvatar = () => (
       r="23"
       fill="url(#pattern3)"
       stroke="#FFFAF0"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <circle
       cx="141"
@@ -68,7 +68,7 @@ const UserAvatar = () => (
       r="23"
       fill="url(#pattern4)"
       stroke="#FFFAF0"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <defs>
       <pattern
