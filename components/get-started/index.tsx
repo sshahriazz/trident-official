@@ -1,8 +1,8 @@
 import Image from "next/future/image";
 import React from "react";
-import { gettingStarted } from "content";
 import { Button } from "components/common";
 import Parks from "./Parks";
+import { gettingStarted } from "content";
 
 const GettingStarted = () => {
   return (
