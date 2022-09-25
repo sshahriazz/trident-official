@@ -6,7 +6,7 @@ import Parks from "./Parks";
 
 const GettingStarted = () => {
   return (
-    <div className="container mx-auto px-2 sm:px-0">
+    <>
       <div className="bg-[#D6ECF4] rounded-lg">
         <div className="w-full h-full relative">
           <div className="p-4 lg:py-20 lg:pl-24">
@@ -39,7 +39,7 @@ const GettingStarted = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

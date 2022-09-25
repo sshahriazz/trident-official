@@ -7,8 +7,8 @@ function Layout({ children }: { children: ReactNode }) {
       <Navbar />
       <div className="container mx-auto max-w-7xl border-t-[1px] py-2">
         {children}
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
