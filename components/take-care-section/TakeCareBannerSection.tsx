@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TridentSupport from "assets/blogs-image/trident-support.png";
-import { flyerData } from './data'
+import { flyerData } from 'content/component/care'
 import Flyer from "./Flyer";
 
 const TakeCareBannerSection = () => {

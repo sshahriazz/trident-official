@@ -4,7 +4,7 @@ import {
     AccordionHeader,
     AccordionBody,
 } from "@material-tailwind/react";
-import { takeCareData } from './data'
+import { takeCareData } from 'content/component/care'
 
 function Icon({ id, open }: { id: number, open: number }) {
     return (
