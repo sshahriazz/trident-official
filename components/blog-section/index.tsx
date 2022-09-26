@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import { blogData } from "./data";
+import Image from "next/future/image";
 import BorderLineButton from "../common/button/BorderLineButton";
+import { blogData } from "content";
 
 const index = () => {
   return (
