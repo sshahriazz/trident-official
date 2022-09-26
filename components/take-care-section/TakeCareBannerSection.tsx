@@ -13,7 +13,7 @@ const TakeCareBannerSection = () => {
                 width={400}
                 height={480}
             />
-            <div className="absolute top-[13.5rem] left-[-6rem] w-full">
+            <div className="absolute top-[13.5rem] left-[-6rem]">
                 <Flyer data={flyerData.home} iconBg="bg-[#B1D7B4]" />
                 <Flyer data={flyerData.wireframe} className="ml-6" iconBg="bg-[#ECC5FB]" />
                 <Flyer data={flyerData.travel} className="ml-12" iconBg="bg-[#FFD9C0]" />

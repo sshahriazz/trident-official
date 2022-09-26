@@ -7,7 +7,7 @@ const TakeCare = () => {
             <div className="col-span-2">
                 <TakeCareLeftSection />
             </div>
-            <div className="col-span-3 mx-auto">
+            <div className="col-span-3 flex justify-center lg:justify-end">
                 <TakeCareBannerSection />
             </div>
         </div>
