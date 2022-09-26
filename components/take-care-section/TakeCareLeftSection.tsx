@@ -37,7 +37,7 @@ const TakeCareLeftSection = () => {
             <hr className="border-1 border-gray-300 mt-10" />
             {takeCareData.map((item) => (
                 <Accordion key={item.id} open={open === item.id} icon={<Icon id={item.id} open={open} />}>
-                    <AccordionHeader onClick={() => handleOpen(item.id)}>
+                    <AccordionHeader onClick={() => handleOpen(item.id)} className="border-b">
                         {item.title}
                     </AccordionHeader>
                     <AccordionBody>

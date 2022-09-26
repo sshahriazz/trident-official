@@ -13,7 +13,7 @@ const Flyer = ({
     return (
         <div
             className={`${className && className
-                } flex rounded-full p-3 mb-4 w-[350px] bg-white drop-shadow-2xl`}
+                } flex rounded-full p-3 mb-3 w-[350px] bg-white drop-shadow-2xl`}
         >
             <div
                 className={`${iconBg && iconBg
