@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { CheckCircleIcon } from "@heroicons/react/24/solid";
+import { CheckCircleIcon, } from "@heroicons/react/24/solid";
 
 const Parks: FC<{ parks: string[] }> = ({ parks }) => {
   return (
