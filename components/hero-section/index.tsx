@@ -198,7 +198,7 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div>
           <div>
             <StarSvg />
             <p className="text-lg font-normal pt-4 w-[275px] text-[#565656]">
