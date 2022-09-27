@@ -6,7 +6,7 @@ import Flyer from "./Flyer";
 
 const TakeCareBannerSection = () => {
     return (
-        <div className="relative">
+        <div className="relative p-4">
             <Image
                 src={TridentSupport}
                 alt="Trident Support"
