@@ -6,7 +6,7 @@ import { gettingStarted } from "content";
 
 const GettingStarted = () => {
   return (
-    <>
+    <div className=" pb-[100px]">
       <div className="bg-[#D6ECF4] rounded-lg">
         <div className="w-full h-full relative">
           <div className="p-4 lg:py-20 lg:pl-24">
@@ -39,7 +39,7 @@ const GettingStarted = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import GettingStarted from "components/get-started";
 import CareSection from "components/take-care-section";
 import TaskSection from "components/task-section";
+import TrackSection from "components/track-section";
 import BlogSection from "components/blog-section";
 
 const Home: NextPage = () => {
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <HeroSection />
       <CareSection />
       <TaskSection/>
+      <TrackSection/>
       <BlogSection />
       <GettingStarted />
     </div>
