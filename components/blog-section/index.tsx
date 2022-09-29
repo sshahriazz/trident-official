@@ -5,7 +5,7 @@ import { blogData } from "content";
 
 const index = () => {
   return (
-    <>
+    <div className="pb-[100px]">
       <div className="flex flex-wrap justify-between gap-5 mb-[3.25rem]">
         <h1 className="text-3xl md:text-[40px] font-semibold">
           Get smarter, with our blog.
@@ -38,7 +38,7 @@ const index = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
