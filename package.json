@@ -12,11 +12,14 @@
     "@headlessui/react": "^1.7.2",
     "@heroicons/react": "^2.0.11",
     "@material-tailwind/react": "^1.2.4",
+    "@types/aos": "^3.0.4",
+    "aos": "^2.3.4",
     "clsx": "^1.2.1",
     "husky": "^8.0.1",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-spinners": "^0.13.4"
   },
   "devDependencies": {
     "@types/node": "18.7.18",

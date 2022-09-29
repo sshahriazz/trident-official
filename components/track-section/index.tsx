@@ -11,7 +11,7 @@ import { trackProgressData, trackData } from "content/component/track-data";
 const index = () => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 pb-[120px]">
-            <div className="relative">
+            <div className="relative" data-aos="fade-right" data-aos-delay="200">
                 <Image src={TridentBanner} alt="Trident Banner" />
                 <div className="sm:absolute top-[10.5rem] left-0 md:left-[-1rem] mt-6 md:mt-0 border rounded-3xl mx-auto p-5 w-[270px] bg-white">
                     <h1 className="text-xl font-semibold mb-4 mt-1">Task Progress</h1>
@@ -24,7 +24,7 @@ const index = () => {
                 </div> */}
             </div>
 
-            <div className="flex flex-col lg:mt-14">
+            <div className="flex flex-col lg:mt-14" data-aos="fade-left" data-aos-delay="200">
                 <h1 className="text-2xl md:text-[40px] font-semibold mb-6">
                     Set, forget, and then track.
                 </h1>

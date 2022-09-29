@@ -147,14 +147,14 @@ const UserAvatar = () => (
 
 export const HeroSection = () => {
   return (
-    <div>
-      <div className="w-100 sm:w-[820px] mx-auto">
-        <h1 className="text-center text-3xl sm:text-[70px] font-semibold leading-[50px] sm:leading-[80px]">
-          Your everyday tasks, automated.
+    <div className="pt-12">
+      <div className="w-100 sm:w-[820px] mx-auto pb-6">
+        <h1 className="text-center text-3xl sm:text-[70px] font-semibold leading-[50px] sm:leading-[80px]" data-aos="fade-down">
+          We build, So you can explore digitally
         </h1>
       </div>
       <div className="xl:grid xl:grid-cols-3 xl:gap-8 justify-items-center">
-        <div>
+        <div data-aos="fade-right" data-aos-delay="200">
           <div>
             <Image
               className="m-0"
@@ -172,7 +172,7 @@ export const HeroSection = () => {
           </div>
         </div>
 
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="200">
           <div className="relative mx-auto w-[331px]">
             <div
               className={
@@ -198,14 +198,13 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-delay="200">
           <div>
             <StarSvg />
             <p className="text-lg font-normal pt-4 w-[275px] text-[#565656]">
-              Trident lets you design and streamline your everyday tasks and
-              workflows in just a few clicks.
+              A one-stop platform to provide you with everything you need like Web development, App development, UI, UX, and Digital Marketing.
             </p>
-            <Button className="mt-6">Book a Demo</Button>
+            <Button className="mt-6 bg-primaryDark-500">Portfolios</Button>
           </div>
           <div className="flex justify-center mt-28">
             <div className="border w-36 h-36 rounded-full flex flex-col align-middle justify-center tracking-tight bg-[#FCEFD9]">

@@ -8,13 +8,13 @@ import BorderLineButton from "../common/button/BorderLineButton";
 export default function Navbar() {
     const [hideNavMenu] = useState(false);
     return (
-        <Disclosure as="nav" className="container bg-white sm:py-2 mx-auto">
+        <Disclosure as="nav" className="container mx-auto">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl px-4 sm:px-0">
-                        <div className="flex h-16 items-center justify-between">
+                    <div className="mx-auto max-w-7xl px-4 py-4 sm:px-0 border-b">
+                        <div className="flex items-center justify-between">
                             <div className="flex items-center">
-                                <div className="flex-shrink-0">
+                                <div className="flex-shrink-0" data-aos="zoom-in" data-aos-delay="200">
                                     <Image
                                         className="hidden sm:block"
                                         src={"/assets/logo/trident-logo.svg"}
@@ -59,18 +59,13 @@ export default function Navbar() {
                                 </Disclosure.Button>
 
                             </div>
-                            <div className="gap-3 hidden sm:flex">
+                            <div className="gap-3 hidden sm:flex" data-aos="zoom-in" data-aos-delay="200">
                                 <BorderLineButton onClick={() => { }}>
-                                    <span>Sign In </span>
-                                </BorderLineButton>
-                                <BorderLineButton onClick={() => { }}>
-                                    <span>Book a Demo </span>
+                                    <span>Set a meeting</span>
                                 </BorderLineButton>
                             </div>
-
                         </div>
                     </div>
-
                     {/* <DisclosureMenu /> */}
                 </>
             )}

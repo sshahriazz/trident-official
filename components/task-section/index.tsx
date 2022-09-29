@@ -8,14 +8,14 @@ const index = () => {
         <div className="pt-8 pb-[60px]">
             <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-[40px] font-semibold mb-5">
-                    Your tasks, automated.
+                    Get Your Every Digital Solution in One Platform
                 </h2>
                 <p className="text-[#565656] mx-auto sm:w-[520px] w-100">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-7" data-aos="fade-up" data-aos-delay="200">
                 <Tasks data={tasksData.options} iconBg="bg-[#F9EA72]" />
                 <Tasks data={tasksData.stay} iconBg="bg-[#CCEFF6]" />
                 <Tasks data={tasksData.automate} iconBg="bg-[#F6CEDC]" />
