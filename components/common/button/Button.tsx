@@ -22,14 +22,15 @@ const Button: FC<
         className,
         "focus:outline-none focus:ring",
         {
-          "border border-primary-500 text-black bg-transparent hover:text-white":
+          "border border-primary-500 text-black bg-transparent hover:text-white transition ease-in-out delay-150":
             outline,
           "bg-primaryDark-500": !outline,
           "text-white": !outline,
         },
-        `hover:bg-primaryDark-400`,
+        `hover:bg-primary-500`,
         `active:bg-primaryDark-600`,
         `focus:ring-primaryDark-200`,
+        `transition ease-in-out delay-150`,
         radius,
         px,
         py

@@ -9,7 +9,7 @@ const GettingStarted = () => {
     <div className=" pb-[100px]">
       <div className="bg-[#D6ECF4] rounded-lg">
         <div className="w-full h-full relative">
-          <div className="p-4 lg:py-20 lg:pl-24">
+          <div className="p-4 lg:py-20 lg:pl-24" data-aos="fade-right" data-aos-delay="200">
             <h1 className="font-semibold text-2xl sm:text-4xl leading-tight pb-4 text-center md:text-left">
               {gettingStarted.heading}
             </h1>
@@ -28,7 +28,7 @@ const GettingStarted = () => {
               <Parks parks={gettingStarted.perks} />
             </div>
           </div>
-          <div className="absolute bottom-0 right-0 hidden md:block">
+          <div className="absolute bottom-0 right-0 hidden md:block" data-aos="fade-left" data-aos-delay="200">
             <Image
               className="rounded-lg xl:w-[700px] xl:h-[400px] lg:w-[600px] lg:h-[350px] md:w-[385px] md:h-[270px]"
               height={350}
