@@ -16,17 +16,17 @@ const GettingStarted = () => {
             <p className="text-[#565656] text-base pb-2 md:pb-6 w-100 sm:w-[400px]">
               {gettingStarted.subHeading}
             </p>
-            <div className="md:hidden block pb-4">
+            {/* <div className="md:hidden block pb-4">
               <Parks parks={gettingStarted.perks} />
-            </div>
+            </div> */}
             <div className="flex justify-end md:justify-start">
               <Button className="w-full sm:w-auto">
                 {gettingStarted.buttonText}
               </Button>
             </div>
-            <div className="hidden md:block pt-8">
+            {/* <div className="hidden md:block pt-8">
               <Parks parks={gettingStarted.perks} />
-            </div>
+            </div> */}
           </div>
           <div className="absolute bottom-0 right-0 hidden md:block" data-aos="fade-left" data-aos-delay="200">
             <Image

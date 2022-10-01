@@ -34,5 +34,21 @@ export const trackData = [
     {
         id: 3,
         title: "You own the shares",
+    },
+    {
+        id: 4,
+        title: "You own the shares",
+    },
+    {
+        id: 5,
+        title: "You own the shares",
+    },
+    {
+        id: 6,
+        title: "You own the shares",
+    },
+    {
+        id: 7,
+        title: "You own the shares",
     }
 ];

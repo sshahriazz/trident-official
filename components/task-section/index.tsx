@@ -11,8 +11,7 @@ const index = () => {
                     Get Your Every Digital Solution in One Platform
                 </h2>
                 <p className="text-[#565656] mx-auto sm:w-[520px] w-100">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    As you&apos;ve decided to jump into digitalization, why should you waste your time by getting things done in different places? Get all the things done in one place!
                 </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-7" data-aos="fade-up" data-aos-delay="200">

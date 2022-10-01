@@ -14,7 +14,7 @@ export const tasksData = {
     stay: {
         id: 2,
         title: 'UI/UX Design',
-        description: `We design intuitive UI and UX for diverse background users. Our aim is to simplify the website and app design by making complex features easy to use.
+        description: `We design intuitive UI and UX for diverse background users. A user-friendly website or app plays an important role to engage customers and increase sales. Our aim is to simplify the website and app design by making complex features easy to use. So that a large customer base can involve with the website or app.
         `,
         icon: Ringing,
     },
@@ -28,7 +28,7 @@ export const tasksData = {
     alerts: {
         id: 4,
         title: 'Digital Marketing',
-        description: `Are you confused to boost your business growth digitally? No worries, Trident also has a digital marketing team that is eager to help you to increase your sales. Whether increasing website traffic or product sales, Trident is the one-stop service to ease your every digital-based problem.
+        description: `Are you confused to boost your business growth digitally? No worries, Trident also has a digital marketing team that is eager to help you to increase your sales. Content marketing, on-page SEO, off-page SEO, getting website traffic, or increasing sales - we are the solution for all your digital-based problems. Trident is the one-stop solution for all your digital-based needs.
         `,
         icon: Notification,
     }

@@ -1,7 +1,6 @@
 import { ReactNode, useEffect, useState } from "react";
 import Navbar from "../navbar";
 import Footer from "../footer/index";
-import Head from 'next/head'
 import ClipLoader from "react-spinners/ClipLoader";
 import Aos from "aos";
 import 'aos/dist/aos.css';
@@ -20,10 +19,6 @@ function Layout({ children }: { children: ReactNode }) {
 
   return (
     <>
-      <Head>
-        <title>Trident</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       {
         loading ?
           <div className='h-screen w-screen flex justify-center items-center bg-[#F6F5F4]'>
