@@ -1,6 +1,6 @@
-import Travel from "assets/blogs-image/travel.svg";
-import Home from "assets/blogs-image/home.svg";
-import Wireframe from "assets/blogs-image/wireframe.svg";
+import Travel from "assets/images/blogs-image/travel.svg";
+import Home from "assets/images/blogs-image/home.svg";
+import Wireframe from "assets/images/blogs-image/wireframe.svg";
 
 export const takeCareData = [
   {
