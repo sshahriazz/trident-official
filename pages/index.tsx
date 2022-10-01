@@ -5,11 +5,13 @@ import CareSection from "components/take-care-section";
 import TaskSection from "components/task-section";
 import TrackSection from "components/track-section";
 import BlogSection from "components/blog-section";
+import ClientSpeak from "components/client-speak/index"
 
 const Home: NextPage = () => {
   return (
     <div className="space-y-7">
       <HeroSection />
+      <ClientSpeak />
       <CareSection />
       <TaskSection/>
       <TrackSection/>
