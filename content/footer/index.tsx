@@ -1,10 +1,8 @@
 /* This example requires Tailwind CSS v2.0+ */
 export const navigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+    { name: "Terms & Condition", href: "terms-condition" },
+    { name: "Privacy Policy", href: "privacy-policy" },
   ],
   support: [
     { name: "Pricing", href: "#" },

@@ -33,8 +33,8 @@ export default function index() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="pt-12 pb-4">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8 pb-4">
+      <div className="py-12 pb-4">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-8 pb-12">
           <div className="space-y-4 xl:col-span-1">
             <div className="flex-shrink-0">
               <Image
@@ -53,7 +53,7 @@ export default function index() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-black hover:bg-[#CDF0EB] hover:border-[#CDF0EB] border rounded-full p-2"
+                  className="text-primary-500 hover:bg-primary-100 hover:border-primary-100 border rounded-full p-2"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -64,7 +64,7 @@ export default function index() {
           <div className="mt-12 grid md:grid-cols-3 grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
             <div>
               <h3 className="text-base font-medium text-gray-900 text-center sm:text-left">
-                Solutions
+                Quick Links
               </h3>
               <ul
                 role="list"
@@ -105,13 +105,22 @@ export default function index() {
             <div className="md:grid md:grid-cols-1 md:gap-8">
               <div className="px-4 md:px-10 lg:px-0">
                 <h3 className="text-base font-medium text-gray-900 text-center sm:text-left">
-                  News Letter
+                  Contact Us
                 </h3>
                 <p className="text-sm text-gray-500 mt-4">
-                  Sign up for the latest news, company insights, and Whirl
-                  updates.
+                  If you have any quries, please feel free to contact us.
                 </p>
-                <form action="" className="mt-4">
+
+                <ul
+                  role="list"
+                  className="mt-4 space-y-4 text-center sm:text-left"
+                >
+                  <li>
+                    <a href="mailto:hello.teamtrident@gmail.com">hello.teamtrident@gmail.com</a><br />
+                    <a href="#">+88 01827113224</a>
+                  </li>
+                </ul>
+                {/* <form action="" className="mt-4">
                   <div className="relative">
                     <div className="w-full">
                       <input
@@ -131,13 +140,13 @@ export default function index() {
                       </button>
                     </div>
                   </div>
-                </form>
+                </form> */}
               </div>
             </div>
           </div>
         </div>
         <div className="border-t border-gray-200 pt-4">
-          <p className="text-base text-gray-400 text-center">
+          <p className="text-base text-primary-500 text-center">
             &copy; 2022 Trident. All rights reserved.
           </p>
         </div>

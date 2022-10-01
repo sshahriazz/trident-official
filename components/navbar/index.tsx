@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/future/image";
 import NavMenu from "./NavMenu";
 import BorderLineButton from "../common/button/BorderLineButton";
+import Link from "next/link";
 export default function Navbar() {
     const [hideNavMenu] = useState(false);
     return (
@@ -15,20 +16,24 @@ export default function Navbar() {
                         <div className="flex items-center justify-between">
                             <div className="flex items-center">
                                 <div className="flex-shrink-0" data-aos="zoom-in" data-aos-delay="200">
-                                    <Image
-                                        className="hidden sm:block"
-                                        src={"/assets/logo/trident-logo.svg"}
-                                        alt="trident-logo"
-                                        width={166}
-                                        height={40}
-                                    />
-                                    <Image
-                                        className="sm:hidden "
-                                        src={"/assets/logo/trident-logo-mobile.svg"}
-                                        alt="trident-logo-mobile"
-                                        width={40}
-                                        height={40}
-                                    />
+                                    <Link href={'/'}>
+                                        <Image
+                                            className="hidden sm:block cursor-pointer"
+                                            src={"/assets/logo/trident-logo.svg"}
+                                            alt="trident-logo"
+                                            width={166}
+                                            height={40}
+                                        />
+                                    </Link>
+                                    <Link href={'/'}>
+                                        <Image
+                                            className="sm:hidden cursor-pointer"
+                                            src={"/assets/logo/trident-logo-mobile.svg"}
+                                            alt="trident-logo-mobile"
+                                            width={40}
+                                            height={40}
+                                        />
+                                    </Link>
                                 </div>
                                 {/* ------------------------ Nav Menu ------------------- */}
                                 {hideNavMenu && <NavMenu />}
