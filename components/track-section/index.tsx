@@ -11,7 +11,7 @@ import { trackProgressData, trackData } from "content/component/track-data";
 const index = () => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 pb-[120px]">
-            <div className="relative" data-aos="fade-right" data-aos-delay="200">
+            <div className="relative" data-aos="fade-up" data-aos-delay="200">
                 <Image src={TridentBanner} alt="Trident Banner" />
                 {/* <div className="sm:absolute top-[10.5rem] left-0 md:left-[-1rem] mt-6 md:mt-0 border rounded-3xl mx-auto p-5 w-[270px] bg-white">
                     <h1 className="text-xl font-semibold mb-4 mt-1">Task Progress</h1>
@@ -24,13 +24,14 @@ const index = () => {
                 </div> */}
             </div>
 
-            <div className="flex flex-col lg:mt-14" data-aos="fade-left" data-aos-delay="200">
+            <div className="flex flex-col lg:mt-14" data-aos="fade-up" data-aos-delay="200">
                 <h1 className="text-2xl md:text-[40px] font-semibold mb-6">
                     Our Development Process
                 </h1>
                 <p className="text-[#565656] mb-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    A Product Development Process refers to the entire range of activities where a company conceptualizes and realizes a new offering.
+                    A product concept might originate in the marketplace, or in a lab or workspace, or in the so-called fuzzy front end.
+                    Ideas come from customer requirements, too.
                 </p>
                 <div className="mb-5">
                     {trackData.map((item) => (

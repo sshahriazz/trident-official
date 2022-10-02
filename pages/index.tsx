@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           cardType: 'summary_large_image',
         }}
       />
-      <div className="space-y-7">
+      <div className="space-y-10 md:space-y-20">
         <HeroSection />
         <CareSection />
         <TaskSection />

@@ -3,11 +3,11 @@ import TakeCareLeftSection from "./TakeCareLeftSection";
 
 const TakeCare = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-12 py-16">
-            <div className="col-span-2 mt-10" data-aos="fade-right" data-aos-delay="200">
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-16 items-center">
+            <div className="w-full lg:w-[470px]" data-aos="fade-up" data-aos-delay="200">
                 <TakeCareLeftSection />
             </div>
-            <div className="col-span-3 flex justify-center lg:justify-end" data-aos="fade-left" data-aos-delay="200">
+            <div className="flex justify-center lg:justify-end" data-aos="fade-up" data-aos-delay="200">
                 <TakeCareBannerSection />
             </div>
         </div>

@@ -158,8 +158,8 @@ export const HeroSection = () => {
           We build, So you can explore digitally
         </h1>
       </div>
-      <div className="flex justify-between">
-        <div data-aos="fade-right" data-aos-delay="200" className="flex flex-col justify-between">
+      <div className="flex justify-center lg:justify-between">
+        <div data-aos="fade-up" data-aos-delay="200" className="hidden lg:flex flex-col justify-between">
           <div className="">
             <Image
               src={TridentHeroImageGiff2}
@@ -168,7 +168,6 @@ export const HeroSection = () => {
               height={230}
             />
           </div>
-
           <div>
             <UserAvatar />
             <p className="pt-5 w-60">Our Happy Cliets</p>
@@ -184,7 +183,7 @@ export const HeroSection = () => {
             height={800}
           />
         </div>
-        <div data-aos="fade-left" data-aos-delay="200" className="flex flex-col justify-between">
+        <div data-aos="fade-up" data-aos-delay="200" className="hidden lg:flex flex-col justify-between">
           <div>
             <StarSvg />
             <p className="text-lg font-normal pt-4 w-[275px] text-[#565656]">
@@ -192,7 +191,7 @@ export const HeroSection = () => {
             </p>
             <Button className="mt-6 bg-primaryDark-500">Portfolios</Button>
           </div>
-          <div className='relative cursor-pointer hidden md:block' >
+          <div className='relative cursor-pointe' >
             <Link href={'#rp'} passHref>
               <div>
                 <div className='w-36 float-right'>
