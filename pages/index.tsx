@@ -6,6 +6,7 @@ import TaskSection from "components/task-section";
 import TrackSection from "components/track-section";
 import BlogSection from "components/blog-section";
 import { NextSeo } from 'next-seo';
+import ClientQuote from "components/client-quote";
 
 const Home: NextPage = () => {
   return (
@@ -51,6 +52,7 @@ const Home: NextPage = () => {
         <TaskSection />
         <TrackSection />
         <BlogSection />
+        <ClientQuote/>
         <GettingStarted />
       </div>
     </>
