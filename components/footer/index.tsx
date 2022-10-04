@@ -116,7 +116,10 @@ export default function index() {
                   className="mt-4 space-y-4 text-center sm:text-left"
                 >
                   <li>
-                    <a href="mailto:hello.teamtrident@gmail.com">hello.teamtrident@gmail.com</a><br />
+                    <a href="mailto:hello.teamtrident@gmail.com">
+                      hello.teamtrident@gmail.com
+                    </a>
+                    <br />
                     <a href="#">+88 01827113224</a>
                   </li>
                 </ul>

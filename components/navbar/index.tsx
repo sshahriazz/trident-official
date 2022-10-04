@@ -9,13 +9,13 @@ import Link from "next/link";
 export default function Navbar() {
     const [hideNavMenu] = useState(false);
     return (
-        <Disclosure as="nav" className="container mx-auto">
+        <Disclosure as="nav">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 py-4 sm:px-0 border-b">
                         <div className="flex items-center justify-between">
                             <div className="flex items-center">
-                                <div className="flex-shrink-0" data-aos="zoom-in" data-aos-delay="200">
+                                <div className="flex-shrink-0">
                                     <Link href={'/'}>
                                         <Image
                                             className="hidden sm:block cursor-pointer"
@@ -64,7 +64,7 @@ export default function Navbar() {
                                 </Disclosure.Button>
 
                             </div>
-                            <div className="gap-3 hidden sm:flex" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="gap-3 hidden sm:flex" >
                                 <BorderLineButton onClick={() => { }}>
                                     <span>Set a meeting</span>
                                 </BorderLineButton>
