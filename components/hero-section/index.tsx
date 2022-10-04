@@ -217,7 +217,7 @@ export const HeroSection = () => {
           />
         </div>
         <div className="flex flex-col md:flex-row xl:flex-col justify-between">
-          <div className="flex md:w-[60%] md:pl-12 xl:mx-auto xl:pl-0 flex-col gap-3 border md:border-0 shadow-md md:shadow-none p-3 md:p-0 sm:rounded-none rounded-lg">
+          <div className="flex md:w-[60%] md:pl-12 xl:mx-auto xl:pl-0 flex-col gap-3 border md:border-0 shadow-md md:shadow-none p-3 md:p-0 md:rounded-none rounded-lg">
             <div className="mx-auto md:mx-0">
               <StarSvg />
             </div>

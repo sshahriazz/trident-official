@@ -35,14 +35,13 @@ const ChevronRight = () => (
   </svg>
 );
 
-
-
 const ClientQuote = () => {
   var settings: Settings = {
     dots: false,
     infinite: false,
     speed: 500,
     arrows: false,
+    autoplay: true,
     slidesToShow: 2.5,
     slidesToScroll: 1,
     initialSlide: 1,
@@ -53,7 +52,7 @@ const ClientQuote = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
-        }
+        },
       },
       {
         breakpoint: 768,
@@ -61,17 +60,17 @@ const ClientQuote = () => {
           slidesToShow: 1.5,
           slidesToScroll: 1,
           initialSlide: 1,
-        }
+        },
       },
-      
+
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
-        }
-      }
+        },
+      },
     ],
   };
   const sliderRef = useRef<any>(null);
@@ -81,16 +80,24 @@ const ClientQuote = () => {
   function previous() {
     sliderRef?.current!.slickPrev();
   }
-  
+
   return (
-    <div className="flex bg-gray-100 py-4 flex-col-reverse sm:flex-row">
+    <div className="flex rounded-lg bg-gray-100 py-4 flex-col-reverse sm:flex-row">
       <div className="w-100 sm:w-[30%] mt-3 sm:mt-0 justify-center align-middle flex flex-col space-y-2">
-          <h4 className="text-gray-700 font-semibold text-center text-3xl">Client Speak</h4>
+        <h4 className="text-gray-700 font-semibold text-center text-3xl">
+          Client Speak
+        </h4>
         <div className="space-x-3 flex justify-center align-middle">
-          <button className="rounded-full p-2 text-white bg-gray-500 hover:bg-primary-500 active:bg-primary-500" onClick={previous}>
+          <button
+            className="rounded-full p-2 text-white bg-gray-500 hover:bg-primary-500 active:bg-primary-500"
+            onClick={previous}
+          >
             <ChevronLeft />
           </button>
-          <button className="rounded-full text-white bg-gray-500 hover:bg-primary-500 active:bg-primary-500 p-2" onClick={next}>
+          <button
+            className="rounded-full text-white bg-gray-500 hover:bg-primary-500 active:bg-primary-500 p-2"
+            onClick={next}
+          >
             <ChevronRight />
           </button>
         </div>
@@ -98,7 +105,7 @@ const ClientQuote = () => {
       <div className="w-100 sm:w-[70%]">
         <Slider className="" ref={sliderRef} {...settings}>
           {clientInfo.map((info, index) => (
-            <SliderItem key={index}  {...info} />
+            <SliderItem key={index} {...info} />
           ))}
         </Slider>
       </div>
