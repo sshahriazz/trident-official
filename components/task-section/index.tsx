@@ -5,7 +5,7 @@ import Tasks from "./Tasks";
 
 const index = () => {
     return (
-        <div className="pt-8 pb-[60px]">
+        <div className="py-20">
             <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-[40px] font-semibold mb-5">
                     Get Your Every Digital Solution in One Platform
