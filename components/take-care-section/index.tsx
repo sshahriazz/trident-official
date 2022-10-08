@@ -3,7 +3,7 @@ import TakeCareLeftSection from "./TakeCareLeftSection";
 
 const TakeCare = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between py-16">
+    <div className="flex flex-col md:flex-row justify-between py-20">
       <div className="md:w-[50%]">
         <TakeCareLeftSection />
       </div>
