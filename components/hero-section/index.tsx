@@ -187,11 +187,13 @@ const UserAvatar = () => (
 export const HeroSection = () => {
   return (
     <>
-      <h1 className="text-4xl lg:text-5xl py-6 font-semibold text-center">
-        We build, So you can explore digitally
-      </h1>
+      <div className="flex justify-center pt-10" data-aos="fade-down">
+        <h1 className="text-3xl sm:text-[70px] leading-[50px] sm:leading-[80px] font-semibold text-center w-full md:w-[60%]">
+          We build, So you can explore digitally
+        </h1>
+      </div>
       <div className="flex flex-col xl:flex-row">
-        <div className="hidden xl:flex flex-col justify-between px-10">
+        <div className="hidden xl:flex flex-col justify-between px-10" data-aos="fade-up" data-aos-delay="200">
           <div className="flex justify-center mx-auto">
             <Image
               src={TridentHeroImageGiff2}
@@ -208,7 +210,7 @@ export const HeroSection = () => {
             </p>
           </div>
         </div>
-        <div className="px-10">
+        <div className="px-10" data-aos="zoom-in" data-aos-delay="200">
           <Image
             src={TridentHeroImageGiff}
             alt={"trident hero image"}
@@ -216,7 +218,7 @@ export const HeroSection = () => {
             height={800}
           />
         </div>
-        <div className="flex flex-col md:flex-row xl:flex-col justify-between">
+        <div className="flex flex-col md:flex-row xl:flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
           <div className="flex md:w-[60%] md:pl-12 xl:mx-auto xl:pl-0 flex-col gap-3 border md:border-0 shadow-md md:shadow-none p-3 md:p-0 md:rounded-none rounded-lg">
             <div className="mx-auto md:mx-0">
               <StarSvg />
@@ -230,7 +232,7 @@ export const HeroSection = () => {
             </div>
           </div>
           <div className="hidden md:flex md:w-[40%] xl:w-auto justify-center  align-middle">
-            <Link href={"#rp"}>
+            <Link href={"#testimonial"}>
               <div className="relative my-auto xl:mx-auto">
                 <div>
                   <Image
@@ -241,12 +243,12 @@ export const HeroSection = () => {
                     className="animate-spin z-10"
                   />
                 </div>
-                <div className="absolute top-[44%] left-[40%]">
+                <div className="absolute top-[40%] left-[40%] cursor-pointer">
                   <Image
                     src={ScrollImage1}
                     alt="Picture of the author"
-                    width={20}
-                    height={20}
+                    width={30}
+                    height={30}
                     className="z-20"
                   />
                 </div>

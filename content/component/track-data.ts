@@ -25,30 +25,26 @@ export const trackProgressData = [
 export const trackData = [
     {
         id: 1,
-        title: "Understand your options",
+        title: "Idea Generation (Ideation)",
     },
     {
         id: 2,
-        title: "No lock-ins",
+        title: "Product Definition",
     },
     {
         id: 3,
-        title: "You own the shares",
+        title: "Prototyping",
     },
     {
         id: 4,
-        title: "You own the shares",
+        title: "Detailed Design",
     },
     {
         id: 5,
-        title: "You own the shares",
+        title: "Validation/Testing",
     },
     {
         id: 6,
-        title: "You own the shares",
+        title: "Commercialization",
     },
-    {
-        id: 7,
-        title: "You own the shares",
-    }
 ];

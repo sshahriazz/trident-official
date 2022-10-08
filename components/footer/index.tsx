@@ -30,10 +30,7 @@ const EmailIcon = () => (
 export default function index() {
   return (
     <footer aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
-      <div className="py-12 pb-4">
+      <div className="py-12 pb-4 mt-14">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8 pb-12">
           <div className="space-y-4 xl:col-span-1">
             <div className="flex-shrink-0">
@@ -61,14 +58,14 @@ export default function index() {
               ))}
             </div>
           </div>
-          <div className="mt-12 grid md:grid-cols-3 grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
             <div>
-              <h3 className="text-base font-medium text-gray-900 text-center sm:text-left">
+              <h3 className="text-base font-medium text-gray-900">
                 Quick Links
               </h3>
               <ul
                 role="list"
-                className="mt-4 space-y-4 text-center sm:text-left"
+                className="mt-4 space-y-4"
               >
                 {navigation.solutions.map((item) => (
                   <li key={item.name}>
@@ -83,12 +80,12 @@ export default function index() {
               </ul>
             </div>
             <div>
-              <h3 className="text-base font-medium text-gray-900 text-center sm:text-left">
+              <h3 className="text-base font-medium text-gray-900">
                 Support
               </h3>
               <ul
                 role="list"
-                className="mt-4 space-y-4 text-center sm:text-left"
+                className="mt-4 space-y-4 "
               >
                 {navigation.support.map((item) => (
                   <li key={item.name}>
@@ -103,8 +100,8 @@ export default function index() {
               </ul>
             </div>
             <div className="md:grid md:grid-cols-1 md:gap-8">
-              <div className="px-4 md:px-10 lg:px-0">
-                <h3 className="text-base font-medium text-gray-900 text-center sm:text-left">
+              <div className="">
+                <h3 className="text-base font-medium text-gray-900 ">
                   Contact Us
                 </h3>
                 <p className="text-sm text-gray-500 mt-4">
@@ -113,13 +110,10 @@ export default function index() {
 
                 <ul
                   role="list"
-                  className="mt-4 space-y-4 text-center sm:text-left"
+                  className="mt-4 space-y-4 "
                 >
                   <li>
-                    <a href="mailto:hello.teamtrident@gmail.com">
-                      hello.teamtrident@gmail.com
-                    </a>
-                    <br />
+                    <a href="mailto:hello.teamtrident@gmail.com">hello.teamtrident@gmail.com</a><br />
                     <a href="#">+88 01827113224</a>
                   </li>
                 </ul>
