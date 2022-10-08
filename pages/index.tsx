@@ -5,6 +5,7 @@ import CareSection from "components/take-care-section";
 import TaskSection from "components/task-section";
 import TrackSection from "components/track-section";
 import BlogSection from "components/blog-section";
+import ClientSpeak from "components/client-speak/index";
 import { NextSeo } from "next-seo";
 import ClientQuote from "components/client-quote";
 import Flow from "components/flow";
@@ -50,6 +51,7 @@ const Home: NextPage = () => {
       <div className="space-y-7">
         <HeroSection />
         <Flow />
+        <ClientSpeak />
         <CareSection />
         <TaskSection />
         <TrackSection />
