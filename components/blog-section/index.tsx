@@ -10,7 +10,7 @@ const index = () => {
         <h1 className="text-3xl md:text-[40px] font-semibold">
           Get smarter, with our blog.
         </h1>
-        <BorderLineButton onClick={() => { }}>
+        <BorderLineButton>
           <span>See all posts</span>
         </BorderLineButton>
       </div>
