@@ -159,8 +159,8 @@ export const HeroSection = () => {
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row justify-between pt-8 gap-7">
-        <div data-aos="fade-up" data-aos-delay="200" className="hidden xl:flex flex-col justify-between">
-          <div className="">
+        <div className="hidden xl:flex flex-col justify-between">
+          <div data-aos="fade-up" data-aos-delay="200">
             <Image
               src={TridentHeroImageGiff2}
               alt={"trident hero image"}
@@ -168,7 +168,7 @@ export const HeroSection = () => {
               height={230}
             />
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="250">
             <UserAvatar />
             <p className="pt-5 w-60">Our Happy Cliets</p>
             <p className="underline pt-3"><Link href={'#testimonial'}>See More</Link></p>

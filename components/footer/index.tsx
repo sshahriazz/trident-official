@@ -114,7 +114,7 @@ export default function index() {
                 >
                   <li>
                     <a href="mailto:hello.teamtrident@gmail.com">hello.teamtrident@gmail.com</a><br />
-                    <a href="#">+88 01827113224</a>
+                    <a href="#">+88 01641 214560</a>
                   </li>
                 </ul>
                 {/* <form action="" className="mt-4">
