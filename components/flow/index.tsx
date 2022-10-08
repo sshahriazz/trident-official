@@ -177,7 +177,7 @@ const Flow = () => {
               : "bg-[#FAF4B7]"
           } rounded-3xl p-10 flex flex-col relative`}
         >
-          <div className="pb-3">
+          <div className="pb-3" data-aos="fade-up" data-aos-delay="100">
             {index === 0 ? (
               <ThunderIcon />
             ) : index === 1 ? (
@@ -186,8 +186,8 @@ const Flow = () => {
               <ShieldIcon />
             )}
           </div>
-          <h1 className="text-[20px] pb-3 font-semibold">{f.title}</h1>
-          <p className="text-[14px]">{f.description}</p>
+          <h1 className="text-[20px] pb-3 font-semibold" data-aos="fade-up" data-aos-delay="150">{f.title}</h1>
+          <p className="text-[14px]" data-aos="fade-up" data-aos-delay="200">{f.description}</p>
           <div className="absolute bottom-[-20px] right-[-5px] rotate-[180]">
             {index === 0 ? (
               <ThunderWhite />

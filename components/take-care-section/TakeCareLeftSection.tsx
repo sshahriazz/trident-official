@@ -31,21 +31,23 @@ const TakeCareLeftSection = () => {
 
     return (
         <>
-            <h1 className="text-3xl md:text-[40px] font-semibold leading-10">
+            <h1 className="text-3xl md:text-[40px] font-semibold leading-10" data-aos="fade-up" data-aos-delay="100">
                 We will take care of your everything
             </h1>
             <hr className="border-1 border-gray-300 mt-10" />
-            {takeCareData.map((item) => (
-                <Accordion key={item.id} open={open === item.id} icon={<Icon id={item.id} open={open} />}>
-                    <AccordionHeader onClick={() => handleOpen(item.id)} className="border-b text-left">
-                        {item.title}
-                    </AccordionHeader>
-                    <AccordionBody>
-                        {item.description}
-                    </AccordionBody>
-                </Accordion>
-            ))
-            }
+            <div data-aos="fade-up" data-aos-delay="150">
+                {takeCareData.map((item) => (
+                    <Accordion key={item.id} open={open === item.id} icon={<Icon id={item.id} open={open} />}>
+                        <AccordionHeader onClick={() => handleOpen(item.id)} className="border-b text-left">
+                            {item.title}
+                        </AccordionHeader>
+                        <AccordionBody>
+                            {item.description}
+                        </AccordionBody>
+                    </Accordion>
+                ))
+                }
+            </div>
         </ >
     )
 }

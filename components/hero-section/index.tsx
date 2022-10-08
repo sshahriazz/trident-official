@@ -184,17 +184,17 @@ export const HeroSection = () => {
         </div>
         <div className="bg-blue-50 md:bg-white rounded-3xl w-full xl:w-[300px] flex flex-col justify-between pl-6 pt-6 pb-6 pr-6 md:pr-0">
           <div className="space-y-6">
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
               <StarSvg />
             </div>
-            <p>
+            <p data-aos="fade-up" data-aos-delay="250">
               A one-stop platform to provide you  Web development, App development, UI, UX, and Digital Marketing.
             </p>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
               <Button>Portfolios</Button>
             </div>
           </div>
-          <div className='relative cursor-pointer hidden md:block'>
+          <div className='relative cursor-pointer hidden md:block' data-aos="fade-up" data-aos-delay="200">
             <Link href={'#testimonial'} passHref>
               <div>
                 <div className='w-36 float-right'>
@@ -220,74 +220,6 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-
-
-
-
-      {/* <div className="flex flex-col xl:flex-row">
-        <div className="hidden xl:flex flex-col justify-between px-10" data-aos="fade-up" data-aos-delay="200">
-          <div className="flex justify-center mx-auto">
-            <Image
-              src={TridentHeroImageGiff2}
-              alt={"trident hero image"}
-              width={230}
-              height={230}
-            />
-          </div>
-          <div className="flex flex-col align-middle mx-auto">
-            <UserAvatar />
-            <p className="pt-5 w-60">Our Happy Cliets</p>
-            <p className="underline pt-3">
-              <Link href={"#testimonial"}>See More</Link>
-            </p>
-          </div>
-        </div>
-        <div className="px-10" data-aos="zoom-in" data-aos-delay="200">
-          <Image
-            src={TridentHeroImageGiff}
-            alt={"trident hero image"}
-            width={800}
-            height={800}
-          />
-        </div>
-        <div className="flex flex-col md:flex-row xl:flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
-          <div className="flex md:w-[60%] md:pl-12 xl:mx-auto xl:pl-0 flex-col gap-3 border md:border-0 shadow-md md:shadow-none p-3 md:p-0 md:rounded-none rounded-lg">
-            <div className="mx-auto md:mx-0">
-              <StarSvg />
-            </div>
-            <p className="w-[85%] md:w-[80%] xl:w-auto mx-auto md:mx-0 md:text-left text-center">
-            A one-stop platform to provide you  Web development, App development, UI, UX, and Digital Marketing.
-            </p>
-            <div className="mx-auto md:mx-0">
-              <Button>Portfolios</Button>
-            </div>
-          </div>
-          <div className="hidden md:flex md:w-[40%] xl:w-auto justify-center  align-middle">
-            <Link href={"#testimonial"}>
-              <div className="relative my-auto xl:mx-auto">
-                <div>
-                  <Image
-                    src={ScrollImage}
-                    alt="Picture of the author"
-                    width={130}
-                    height={130}
-                    className="animate-spin z-10"
-                  />
-                </div>
-                <div className="absolute top-[40%] left-[40%] cursor-pointer">
-                  <Image
-                    src={ScrollImage1}
-                    alt="Picture of the author"
-                    width={30}
-                    height={30}
-                    className="z-20"
-                  />
-                </div>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

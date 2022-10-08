@@ -7,10 +7,10 @@ export default function index() {
 
     return (
         <>
-            <div className='text-center mb-5'>
+            <div className='text-center mb-5' data-aos="fade-up" data-aos-delay="100">
                 <h1 className='text-2xl font-semibold'>Trusted by 50,000+ companies</h1>
             </div>
-            <div className='flex gap-3 sm:gap-14 justify-center flex-wrap'>
+            <div className='flex gap-3 sm:gap-14 justify-center flex-wrap' data-aos="fade-up" data-aos-delay="150">
                 {
                     companysRow1.map((company, index): any =>
                         <Image
@@ -23,7 +23,7 @@ export default function index() {
                         />)
                 }
             </div>
-            <div className='flex gap-5 sm:gap-14 justify-center flex-wrap mt-4'>
+            <div className='flex gap-5 sm:gap-14 justify-center flex-wrap mt-4' data-aos="fade-up" data-aos-delay="200">
                 {
                     companysRow2.map((company, index): any => <Image
                         key={index}

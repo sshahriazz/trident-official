@@ -55,7 +55,7 @@ const Home: NextPage = () => {
         <div className="py-12"><CareSection /></div>
         <div className="py-12"><TaskSection /></div>
         <div className="py-12"><TrackSection /></div>
-        <div className="py-12"><BlogSection /></div>
+        {/* <div className="py-12"><BlogSection /></div> */}
         <div className="py-12"><ClientQuote /></div>
         <div><GettingStarted /></div>
       </div>

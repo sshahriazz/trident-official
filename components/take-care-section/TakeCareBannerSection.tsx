@@ -7,7 +7,7 @@ import Flyer from "./Flyer";
 const TakeCareBannerSection = () => {
   return (
     <div className="relative flex md:justify-end justify-center w-full">
-      <div>
+      <div data-aos="fade-up" data-aos-delay="100">
         <Image
           src={TridentBanner}
           alt="Trident Support"
@@ -15,7 +15,7 @@ const TakeCareBannerSection = () => {
           height={450}
         />
       </div>
-      <div className="absolute top-[50%] left-auto md:left-9">
+      <div className="absolute top-[50%] left-auto md:left-9" data-aos="fade-up" data-aos-delay="150">
         <Flyer data={flyerData.home} iconBg="bg-[#B1D7B4]" />
         <Flyer
           data={flyerData.wireframe}
