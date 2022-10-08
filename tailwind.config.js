@@ -8,6 +8,9 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      animation: {
+        'spin': 'spin 10s linear infinite',
+      },
       colors: {
         // white: "#F4F7FD",
         // note : primary color is picked form the tailwind sky vairent.

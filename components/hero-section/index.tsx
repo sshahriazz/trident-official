@@ -1,6 +1,45 @@
 import { Button } from "components/common";
 import Image from "next/future/image";
 import React from "react";
+import TridentHeroImageGiff from "../../assets/gif/trident-hero.gif";
+import TridentHeroImageGiff2 from "../../assets/gif/trident-hero-2.gif";
+import ScrollImage from "../../assets/icon/2.svg";
+import ScrollImage1 from "../../assets/icon/1.svg";
+import Link from "next/link";
+{
+  /* <Image
+              src={TridentHeroImageGiff2}
+              alt={"trident hero image"}
+              width={230}
+              height={230}
+            /> */
+}
+
+//   <Image
+//   className="m-0"
+//   src={TridentHeroImageGiff}
+//   alt={"trident hero image"}
+//   width={800}
+//   height={800}
+// />
+// <div className='w-36 float-right'>
+//         <Image
+//           src={ScrollImage}
+//           alt="Picture of the author"
+//           width={130}
+//           height={130}
+//           className="animate-spin z-10"
+//         />
+//       </div>
+//       <div className='absolute w-5 top-[56px] right-[68px]'>
+//         <Image
+//           src={ScrollImage1}
+//           alt="Picture of the author"
+//           width={20}
+//           height={20}
+//           className="z-20"
+//         />
+//       </div>
 
 const StarSvg = () => (
   <svg
@@ -147,76 +186,76 @@ const UserAvatar = () => (
 
 export const HeroSection = () => {
   return (
-    <div className="pt-12">
-      <div className="w-100 sm:w-[820px] mx-auto pb-6">
-        <h1 className="text-center text-3xl sm:text-[70px] font-semibold leading-[50px] sm:leading-[80px]" data-aos="fade-down">
-          We build, So you can explore digitally
-        </h1>
-      </div>
-      <div className="xl:grid xl:grid-cols-3 xl:gap-8 justify-items-center">
-        <div data-aos="fade-right" data-aos-delay="200">
-          <div>
+    <>
+      <h1 className="text-4xl lg:text-5xl py-6 font-semibold text-center">
+        We build, So you can explore digitally
+      </h1>
+      <div className="flex flex-col xl:flex-row">
+        <div className="hidden xl:flex flex-col justify-between px-10">
+          <div className="flex justify-center mx-auto">
             <Image
-              className="m-0"
-              src={"/assets/images/trident-how-to-works.svg"}
+              src={TridentHeroImageGiff2}
               alt={"trident hero image"}
-              width={283}
-              height={200}
+              width={230}
+              height={230}
             />
           </div>
-
-          <div className="mt-40">
+          <div className="flex flex-col align-middle mx-auto">
             <UserAvatar />
-            <p className="pt-5 w-60">Help they be productive with activities</p>
-            <p className="underline pt-3">See story</p>
-          </div>
-        </div>
-
-        <div data-aos="zoom-in" data-aos-delay="200">
-          <div className="relative mx-auto w-[331px]">
-            <div
-              className={
-                "bg-[url('/assets/images/trident-hero-image-bg.svg')] bg-contain bg-no-repeat relative bg-[center_top_4.36rem]"
-              }
-            >
-              <Image
-                className="m-0 "
-                src={"/assets/images/trident-hero-image.svg"}
-                alt={"trident hero image"}
-                width={329}
-                height={602}
-              />
-            </div>
-            <div className="absolute bottom-[-14px] left-[calc(50%-39px)]">
-              <Image
-                className="m-0"
-                src={"/assets/images/trident-progress-bar.svg"}
-                alt={"trident hero image"}
-                width={80}
-                height={98}
-              />
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-left" data-aos-delay="200">
-          <div>
-            <StarSvg />
-            <p className="text-lg font-normal pt-4 w-[275px] text-[#565656]">
-              A one-stop platform to provide you with everything you need like Web development, App development, UI, UX, and Digital Marketing.
+            <p className="pt-5 w-60">Our Happy Cliets</p>
+            <p className="underline pt-3">
+              <Link href={"#testimonial"}>See More</Link>
             </p>
-            <Button className="mt-6 bg-primaryDark-500">Portfolios</Button>
           </div>
-          <div className="flex justify-center mt-28">
-            <div className="border w-36 h-36 rounded-full flex flex-col align-middle justify-center tracking-tight bg-[#FCEFD9]">
-              <h1 className="underline text-xl text-center font-semibold">
-                450+
-              </h1>
-              <p className="underline text-center">Positive Reviews</p>
+        </div>
+        <div className="px-10">
+          <Image
+            src={TridentHeroImageGiff}
+            alt={"trident hero image"}
+            width={800}
+            height={800}
+          />
+        </div>
+        <div className="flex flex-col md:flex-row xl:flex-col justify-between">
+          <div className="flex md:w-[60%] md:pl-12 xl:mx-auto xl:pl-0 flex-col gap-3 border md:border-0 shadow-md md:shadow-none p-3 md:p-0 md:rounded-none rounded-lg">
+            <div className="mx-auto md:mx-0">
+              <StarSvg />
             </div>
+            <p className="w-[85%] md:w-[80%] xl:w-auto mx-auto md:mx-0 md:text-left text-center">
+              Twinkle lets you design and streamline your everydaytasks and
+              workflows in just a few clicks.
+            </p>
+            <div className="mx-auto md:mx-0">
+              <Button>Book a Demo</Button>
+            </div>
+          </div>
+          <div className="hidden md:flex md:w-[40%] xl:w-auto justify-center  align-middle">
+            <Link href={"#rp"}>
+              <div className="relative my-auto xl:mx-auto">
+                <div>
+                  <Image
+                    src={ScrollImage}
+                    alt="Picture of the author"
+                    width={130}
+                    height={130}
+                    className="animate-spin z-10"
+                  />
+                </div>
+                <div className="absolute top-[44%] left-[40%]">
+                  <Image
+                    src={ScrollImage1}
+                    alt="Picture of the author"
+                    width={20}
+                    height={20}
+                    className="z-20"
+                  />
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default HeroSection;

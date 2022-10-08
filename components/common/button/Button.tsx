@@ -3,11 +3,6 @@ import clsx from "clsx";
 
 const Button: FC<
   {
-    base?: string;
-    hover?: string;
-    active?: string;
-    focusRing?: string;
-    textColor?: string;
     radius?: string;
     px?: string;
     py?: string;
