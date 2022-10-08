@@ -50,8 +50,9 @@ const Home: NextPage = () => {
       />
       <div className="space-y-7">
         <HeroSection />
-        <Flow />
         <ClientSpeak />
+        <Flow />
+
         <CareSection />
         <TaskSection />
         <TrackSection />
