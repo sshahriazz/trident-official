@@ -39,6 +39,7 @@ module.exports = withMT({
       },
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
+        Italiana: ["Italiana", "sans-serif"],
       },
     },
   },

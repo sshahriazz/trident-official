@@ -154,11 +154,11 @@ export const HeroSection = () => {
   return (
     <>
       <div className="flex justify-center" data-aos="fade-down">
-        <h1 className="text-3xl sm:text-[70px] leading-[50px] sm:leading-[80px] font-semibold text-center w-full xl:w-[60%]">
+        <h1 className="text-3xl sm:text-7xl sm:leading-[90px] font-semibold text-center w-full xl:w-[60%] font-Italiana text-primary-500 ">
           We build, So you can explore digitally
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row justify-between pt-10 gap-7">
+      <div className="flex flex-col lg:flex-row justify-between pt-8 gap-7">
         <div data-aos="fade-up" data-aos-delay="200" className="hidden xl:flex flex-col justify-between">
           <div className="">
             <Image
