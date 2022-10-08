@@ -6,40 +6,6 @@ import TridentHeroImageGiff2 from "../../assets/gif/trident-hero-2.gif";
 import ScrollImage from "../../assets/icon/2.svg";
 import ScrollImage1 from "../../assets/icon/1.svg";
 import Link from "next/link";
-{
-  /* <Image
-              src={TridentHeroImageGiff2}
-              alt={"trident hero image"}
-              width={230}
-              height={230}
-            /> */
-}
-
-//   <Image
-//   className="m-0"
-//   src={TridentHeroImageGiff}
-//   alt={"trident hero image"}
-//   width={800}
-//   height={800}
-// />
-// <div className='w-36 float-right'>
-//         <Image
-//           src={ScrollImage}
-//           alt="Picture of the author"
-//           width={130}
-//           height={130}
-//           className="animate-spin z-10"
-//         />
-//       </div>
-//       <div className='absolute w-5 top-[56px] right-[68px]'>
-//         <Image
-//           src={ScrollImage1}
-//           alt="Picture of the author"
-//           width={20}
-//           height={20}
-//           className="z-20"
-//         />
-//       </div>
 
 const StarSvg = () => (
   <svg
@@ -187,14 +153,14 @@ const UserAvatar = () => (
 export const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-center pt-10" data-aos="fade-down">
-        <h1 className="text-3xl sm:text-[70px] leading-[50px] sm:leading-[80px] font-semibold text-center w-full md:w-[60%]">
+      <div className="flex justify-center" data-aos="fade-down">
+        <h1 className="text-3xl sm:text-7xl sm:leading-[90px] font-semibold text-center w-full xl:w-[60%] font-Italiana text-primary-500 ">
           We build, So you can explore digitally
         </h1>
       </div>
-      <div className="flex flex-col xl:flex-row">
-        <div className="hidden xl:flex flex-col justify-between px-10" data-aos="fade-up" data-aos-delay="200">
-          <div className="flex justify-center mx-auto">
+      <div className="flex flex-col lg:flex-row justify-between pt-8 gap-7">
+        <div className="hidden xl:flex flex-col justify-between">
+          <div data-aos="fade-up" data-aos-delay="200">
             <Image
               src={TridentHeroImageGiff2}
               alt={"trident hero image"}
@@ -202,15 +168,13 @@ export const HeroSection = () => {
               height={230}
             />
           </div>
-          <div className="flex flex-col align-middle mx-auto">
+          <div data-aos="fade-up" data-aos-delay="250">
             <UserAvatar />
             <p className="pt-5 w-60">Our Happy Cliets</p>
-            <p className="underline pt-3">
-              <Link href={"#testimonial"}>See More</Link>
-            </p>
+            <p className="underline pt-3"><Link href={'#testimonial'}>See More</Link></p>
           </div>
         </div>
-        <div className="px-10" data-aos="zoom-in" data-aos-delay="200">
+        <div className="w-full xl:w-[680px]" data-aos="zoom-in" data-aos-delay="200">
           <Image
             src={TridentHeroImageGiff}
             alt={"trident hero image"}
@@ -218,23 +182,22 @@ export const HeroSection = () => {
             height={800}
           />
         </div>
-        <div className="flex flex-col md:flex-row xl:flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
-          <div className="flex md:w-[60%] md:pl-12 xl:mx-auto xl:pl-0 flex-col gap-3 border md:border-0 shadow-md md:shadow-none p-3 md:p-0 md:rounded-none rounded-lg">
-            <div className="mx-auto md:mx-0">
+        <div className="bg-blue-50 md:bg-white rounded-3xl w-full xl:w-[300px] flex flex-col justify-between pl-6 pt-6 pb-6 pr-6 md:pr-0">
+          <div className="space-y-6">
+            <div data-aos="fade-up" data-aos-delay="200">
               <StarSvg />
             </div>
-            <p className="w-[85%] md:w-[80%] xl:w-auto mx-auto md:mx-0 md:text-left text-center">
-              Twinkle lets you design and streamline your everydaytasks and
-              workflows in just a few clicks.
+            <p data-aos="fade-up" data-aos-delay="250">
+              A one-stop platform to provide you  Web development, App development, UI, UX, and Digital Marketing.
             </p>
-            <div className="mx-auto md:mx-0">
-              <Button>Book a Demo</Button>
+            <div data-aos="fade-up" data-aos-delay="300">
+              <Button>Portfolios</Button>
             </div>
           </div>
-          <div className="hidden md:flex md:w-[40%] xl:w-auto justify-center  align-middle">
-            <Link href={"#testimonial"}>
-              <div className="relative my-auto xl:mx-auto">
-                <div>
+          <div className='relative cursor-pointer hidden md:block' data-aos="fade-up" data-aos-delay="200">
+            <Link href={'#testimonial'} passHref>
+              <div>
+                <div className='w-36 float-right'>
                   <Image
                     src={ScrollImage}
                     alt="Picture of the author"
@@ -243,12 +206,12 @@ export const HeroSection = () => {
                     className="animate-spin z-10"
                   />
                 </div>
-                <div className="absolute top-[40%] left-[40%] cursor-pointer">
+                <div className='absolute w-5 top-[56px] right-[68px]'>
                   <Image
                     src={ScrollImage1}
                     alt="Picture of the author"
-                    width={30}
-                    height={30}
+                    width={20}
+                    height={20}
                     className="z-20"
                   />
                 </div>

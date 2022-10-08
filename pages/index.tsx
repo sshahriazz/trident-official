@@ -48,17 +48,16 @@ const Home: NextPage = () => {
           cardType: "summary_large_image",
         }}
       />
-      <div className="space-y-7">
-        <HeroSection />
-        <ClientSpeak />
-        <Flow />
-
-        <CareSection />
-        <TaskSection />
-        <TrackSection />
-        <BlogSection />
-        <ClientQuote />
-        <GettingStarted />
+      <div>
+        <div className="py-12"><HeroSection /></div>
+        <div className="py-12"><ClientSpeak /></div>
+        <div className="py-12"><Flow /></div>
+        <div className="py-12"><CareSection /></div>
+        <div className="py-12"><TaskSection /></div>
+        <div className="py-12"><TrackSection /></div>
+        {/* <div className="py-12"><BlogSection /></div> */}
+        <div className="py-12"><ClientQuote /></div>
+        <div><GettingStarted /></div>
       </div>
     </>
   );
