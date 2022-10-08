@@ -38,7 +38,7 @@ const ChevronRight = () => (
 const ClientQuote = () => {
   var settings: Settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     arrows: false,
     autoplay: true,
