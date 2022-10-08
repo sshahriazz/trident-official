@@ -7,7 +7,7 @@ import CallToAction from '../../assets/icon/trident-call-to-action.svg'
 
 const GettingStarted = () => {
   return (
-    <div className=" bg-[#D6ECF4] rounded-3xl mb-40">
+    <div className=" bg-[#D6ECF4] rounded-3xl">
       <div className="w-full h-full relative flex justify-between items-center p-7 md:p-14">
         <div className="" data-aos="fade-up" data-aos-delay="200">
           <h1 className="font-semibold text-2xl sm:text-4xl leading-tight pb-4 text-center md:text-left">

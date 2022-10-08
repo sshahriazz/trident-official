@@ -24,7 +24,7 @@ function Layout({ children }: { children: ReactNode }) {
           <ClipLoader color={"#1585ED"} loading={loading} size={150} />
         </div>
       ) : (
-        <div className="container mx-auto sm:max-w-7xl px-4">
+        <div className="container mx-auto sm:max-w-7xl px-4 md:px-6">
           <Navbar />
           {children}
           <Footer />

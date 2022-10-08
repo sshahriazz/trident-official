@@ -82,7 +82,7 @@ const ClientQuote = () => {
   }
 
   return (
-    <div className="flex rounded-lg bg-gray-100 py-4 flex-col-reverse sm:flex-row" id="testimonial">
+    <div className="flex rounded-lg bg-gray-100 flex-col-reverse sm:flex-row pb-5 md:pb-0" id="testimonial">
       <div className="w-100 sm:w-[30%] mt-3 sm:mt-0 justify-center align-middle flex flex-col space-y-2">
         <h4 className="text-gray-700 font-semibold text-center text-3xl">
           Client Speak

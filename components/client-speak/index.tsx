@@ -6,8 +6,8 @@ export default function index() {
     const companysRow2 = ["Company logo", "Company logo1", "Company logo2", "Company logo3", "Company logo4"];
 
     return (
-        <div className=''>
-            <div className='text-center mb-5 mt-14'>
+        <>
+            <div className='text-center mb-5'>
                 <h1 className='text-2xl font-semibold'>Trusted by 50,000+ companies</h1>
             </div>
             <div className='flex gap-3 sm:gap-14 justify-center flex-wrap'>
@@ -35,6 +35,6 @@ export default function index() {
                     />)
                 }
             </div>
-        </div>
+        </>
     )
 }
