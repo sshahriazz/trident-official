@@ -3,9 +3,6 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function index() {
-    const companysRow1 = ["Company logo", "Company logo1", "Company logo2", "Company logo3", "Company logo4", "Company logo5"];
-    const companysRow2 = ["Company logo", "Company logo1", "Company logo2", "Company logo3", "Company logo4"];
-
     return (
         <>
             <div className='text-center mb-5' data-aos="fade-up" data-aos-delay="100">
@@ -27,14 +24,14 @@ export default function index() {
             <div className='flex gap-5 sm:gap-14 justify-center flex-wrap mt-10' data-aos="fade-up" data-aos-delay="200">
                 {
                     csRowTwoImages.map((company, index): any =>
-                    <Image
-                        key={index}
-                        src={company.image}
-                        alt={'trident'}
-                        width={150}
-                        height={35}
-                        className="cursor-pointer grayscale hover:filter-none"
-                    />)
+                        <Image
+                            key={index}
+                            src={company.image}
+                            alt={'trident'}
+                            width={150}
+                            height={35}
+                            className="cursor-pointer grayscale hover:filter-none"
+                        />)
                 }
             </div>
         </>

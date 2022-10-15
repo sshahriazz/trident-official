@@ -32,10 +32,6 @@ export const csRowOneImages = [
 export const csRowTwoImages = [
     {
         id: 1,
-        image: image6
-    },
-    {
-        id: 2,
         image: image7
     },
 ];
