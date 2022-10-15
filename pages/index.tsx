@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <NextSeo
         //50-60char
         title="Trident Digital Agency"
-        description="TA team whose experience is as sharp as a trident. If you want to build quality software then trident is the best place. Quality is our best priority"
+        description="Trident team, whose experience is as sharp as a trident. If you want to build quality software then trident is the best place. Quality is our best priority"
         canonical="https://www.teamtrident.co/"
         openGraph={{
           url: "https://www.url.ie/a",

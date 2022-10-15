@@ -29,7 +29,7 @@ export default function index() {
                             src={company.image}
                             alt={'trident'}
                             width={150}
-                            height={35}
+                            height={45}
                             className="cursor-pointer grayscale hover:filter-none"
                         />)
                 }
