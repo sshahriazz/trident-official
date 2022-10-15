@@ -163,7 +163,7 @@ export const HeroSection = () => {
           <div data-aos="fade-up" data-aos-delay="200">
             <Image
               src={TridentHeroImageGiff2}
-              alt={"trident hero image"}
+              alt='trident hero image'
               width={230}
               height={230}
             />
@@ -187,9 +187,9 @@ export const HeroSection = () => {
             <div data-aos="fade-up" data-aos-delay="200">
               <StarSvg />
             </div>
-            <p data-aos="fade-up" data-aos-delay="250">
+            <h2 data-aos="fade-up" data-aos-delay="250">
               A one-stop platform to provide you  Web development, App development, UI, UX, and Digital Marketing.
-            </p>
+            </h2>
             <div data-aos="fade-up" data-aos-delay="300">
               <Button>Portfolios</Button>
             </div>

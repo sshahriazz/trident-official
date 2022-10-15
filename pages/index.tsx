@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <NextSeo
         //50-60char
         title="Trident Digital Agency"
-        description="TA team whose experience is as sharp as a trident. If you want to build quality software then trident is the best place. Quality is our best priority"
+        description="Trident team, whose experience is as sharp as a trident. If you want to build quality software then trident is the best place. Quality is our best priority"
         canonical="https://www.teamtrident.co/"
         openGraph={{
           url: "https://www.url.ie/a",
@@ -24,21 +24,21 @@ const Home: NextPage = () => {
           description: "Open Graph Description",
           images: [
             {
-              url: "https://www.example.ie/og-image-01.jpg",
+              url: "../public/assets/images/trident-fb-banner.png",
               width: 800,
               height: 600,
               alt: "Og Image Alt",
               type: "image/jpeg",
             },
             {
-              url: "https://www.example.ie/og-image-02.jpg",
+              url: "../public/assets/images/trident-fb-banner.png",
               width: 900,
               height: 800,
               alt: "Og Image Alt Second",
               type: "image/jpeg",
             },
-            { url: "https://www.example.ie/og-image-03.jpg" },
-            { url: "https://www.example.ie/og-image-04.jpg" },
+            { url: "../public/assets/images/trident-fb-banner.png" },
+            { url: "../public/assets/images/trident-fb-banner.png" },
           ],
           site_name: "SiteName",
         }}
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
         <div className="py-12"><TrackSection /></div>
         {/* <div className="py-12"><BlogSection /></div> */}
         <div className="py-12"><ClientQuote /></div>
-        <div><GettingStarted /></div>
+        <div className="py-12"><GettingStarted /></div>
       </div>
     </>
   );

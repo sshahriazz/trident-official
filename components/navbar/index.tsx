@@ -20,7 +20,7 @@ export default function Navbar() {
                                         <Image
                                             className="hidden sm:block cursor-pointer"
                                             src={"/assets/logo/trident-logo.svg"}
-                                            alt="trident-logo"
+                                            alt='trident'
                                             width={166}
                                             height={40}
                                         />
@@ -29,7 +29,7 @@ export default function Navbar() {
                                         <Image
                                             className="sm:hidden cursor-pointer"
                                             src={"/assets/logo/trident-logo.svg"}
-                                            alt="trident-logo-mobile"
+                                            alt='trident'
                                             width={120}
                                             height={40}
                                         />

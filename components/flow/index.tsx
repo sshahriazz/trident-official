@@ -169,13 +169,12 @@ const Flow = () => {
       {flow.map((f, index) => (
         <div
           key={f.title}
-          className={`${
-            index === 0
+          className={`${index === 0
               ? "bg-[#ECC5FB]"
               : index === 1
-              ? "bg-[#D6ECF4]"
-              : "bg-[#FAF4B7]"
-          } rounded-3xl p-10 flex flex-col relative`}
+                ? "bg-[#D6ECF4]"
+                : "bg-[#FAF4B7]"
+            } rounded-3xl p-10 flex flex-col relative`}
         >
           <div className="pb-3" data-aos="fade-up" data-aos-delay="100">
             {index === 0 ? (

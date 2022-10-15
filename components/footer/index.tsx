@@ -42,8 +42,7 @@ export default function index() {
               />
             </div>
             <p className="text-base text-gray-500">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Trident team, whose experience is as sharp as a trident. If you want to build quality software then trident is the best place. Quality is our best priority.
             </p>
             <div className="flex space-x-3">
               {navigation.social.map((item) => (
@@ -61,7 +60,7 @@ export default function index() {
           <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
             <div>
               <h3 className="text-base font-medium text-gray-900">
-                Quick Links
+                T&C | PP
               </h3>
               <ul
                 role="list"
@@ -81,7 +80,7 @@ export default function index() {
             </div>
             <div>
               <h3 className="text-base font-medium text-gray-900">
-                Support
+                Quick Links
               </h3>
               <ul
                 role="list"
