@@ -6,13 +6,12 @@ import TaskSection from "components/task-section";
 import TrackSection from "components/track-section";
 import BlogSection from "components/blog-section";
 import ClientSpeak from "components/client-speak/index";
-import { NextSeo } from "next-seo";
 import ClientQuote from "components/client-quote";
 import Flow from "components/flow";
-
 const Home: NextPage = () => {
   return (
     <>
+
       <NextSeo
         //50-60char
         title="Trident Digital Agency"
@@ -48,6 +47,7 @@ const Home: NextPage = () => {
           cardType: "summary_large_image",
         }}
       />
+
       <div>
         <div className="py-12"><HeroSection /></div>
         <div className="py-12"><ClientSpeak /></div>
