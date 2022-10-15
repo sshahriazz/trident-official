@@ -163,7 +163,7 @@ export const HeroSection = () => {
           <div data-aos="fade-up" data-aos-delay="200">
             <Image
               src={TridentHeroImageGiff2}
-              alt={"trident hero image"}
+              alt='trident hero image'
               width={230}
               height={230}
             />

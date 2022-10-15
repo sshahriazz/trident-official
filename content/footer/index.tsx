@@ -5,10 +5,9 @@ export const navigation = {
     { name: "Privacy Policy", href: "privacy-policy" },
   ],
   support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
+    { name: "About", href: "#" },
+    { name: "Blog", href: "#" },
+    { name: "Jobs", href: "#" },
   ],
   company: [
     { name: "About", href: "#" },

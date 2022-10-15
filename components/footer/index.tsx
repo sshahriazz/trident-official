@@ -61,7 +61,7 @@ export default function index() {
           <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
             <div>
               <h3 className="text-base font-medium text-gray-900">
-                Quick Links
+                T&C | PP
               </h3>
               <ul
                 role="list"
@@ -81,7 +81,7 @@ export default function index() {
             </div>
             <div>
               <h3 className="text-base font-medium text-gray-900">
-                Support
+                Quick Links
               </h3>
               <ul
                 role="list"

@@ -1,7 +1,7 @@
 const gettingStarted = {
-  heading: "Get started with Trident",
+  heading: "Let's discuss further things in detail",
   subHeading:
-    "Let's discuss further things in detail",
+    "Working on new projects always makes us happy. Please feel free to book a consultation session with us and let's discuss your project thoroughly.",
   buttonText: "Hire Us",
   perks: ["Free 30-day trial", "No credit-card required"],
 };
