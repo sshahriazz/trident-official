@@ -8,6 +8,7 @@ import BlogSection from "components/blog-section";
 import ClientSpeak from "components/client-speak/index";
 import ClientQuote from "components/client-quote";
 import Flow from "components/flow";
+import { NextSeo } from "next-seo";
 const Home: NextPage = () => {
   return (
     <>
