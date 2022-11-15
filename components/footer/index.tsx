@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { navigation } from "content";
+import Link from "next/link";
 
 const EmailIcon = () => (
   <svg
@@ -68,12 +69,14 @@ export default function index() {
               >
                 {navigation.solutions.map((item) => (
                   <li key={item.name}>
-                    <a
+                    <Link
                       href={item.href}
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className=""
                     >
-                      {item.name}
-                    </a>
+                      <p className="text-sm text-gray-500 hover:text-gray-900">
+                        {item.name}
+                      </p>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -90,7 +93,7 @@ export default function index() {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-sm text-gray-500 hover:text-gray-900"
                     >
                       {item.name}
                     </a>
@@ -113,7 +116,7 @@ export default function index() {
                 >
                   <li>
                     <a href="mailto:hello.teamtrident@gmail.com">hello.teamtrident@gmail.com</a><br />
-                    <a href="#">+88 01641 214560</a>
+                    {/* <a href="#">+88 01641 214560</a> */}
                   </li>
                 </ul>
                 {/* <form action="" className="mt-4">

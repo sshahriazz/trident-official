@@ -191,7 +191,9 @@ export const HeroSection = () => {
               A one-stop platform to provide you  Web development, App development, UI, UX, and Digital Marketing.
             </h2>
             <div data-aos="fade-up" data-aos-delay="300">
-              <Button>Portfolios</Button>
+              <Link href={'portfolios'}>
+                <Button>Portfolios</Button>
+              </Link>
             </div>
           </div>
           <div className='relative cursor-pointer hidden md:block' data-aos="fade-up" data-aos-delay="200">
