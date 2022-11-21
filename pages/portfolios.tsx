@@ -46,9 +46,9 @@ const portfolios = () => {
                         </Link>
                     </div>
                     <div className='space-y-10'>
-                        <Link href="#" passHref={true}>
+                        <Link href="https://ashik-vision.vercel.app/" passHref={true}>
                             <div className='border border-primary-500 rounded-md p-10 cursor-pointer hover:shadow-lg w-full md:w-[600px]'>
-                                <Image src={One} alt='trident' />
+                                <Image src={One} alt='Ashik Vision' />
                             </div>
                         </Link>
                         <Link href="http://bongo-technology.com/" passHref={true}>

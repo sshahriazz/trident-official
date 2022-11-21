@@ -30,18 +30,18 @@ export const takeCareData = [
 
 export const flyerData = {
   home: {
-    title: "Design a home page",
-    date: "Tue, 15 sep",
+    title: "Planning & Wareframing",
+    date: "Step-1",
     image: Home,
   },
   wireframe: {
-    title: "Design a wireframe",
-    date: "Tue, 15 sep",
+    title: "Coding & Testing",
+    date: "Step-2",
     image: Wireframe,
   },
   travel: {
-    title: "Design a travel app",
-    date: "Tue, 15 sep",
+    title: "Finishing & Deployment",
+    date: "Step-3",
     image: Travel,
   },
 };

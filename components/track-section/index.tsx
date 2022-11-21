@@ -35,7 +35,7 @@ const index = () => {
                     ))}
                 </div>
                 <div data-aos="fade-up" data-aos-delay="250">
-                    <Button>Hire Us</Button>
+                    <Button><a href="mailto:hello.teamtrident@gmail.com">Hire Us</a></Button>
                 </div>
             </div>
         </div>
